@@ -19,5 +19,5 @@ from appbackend import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('AB/', views.ABList.as_view()),
+    path('api/', include('appbackend.urls')),
 ]
