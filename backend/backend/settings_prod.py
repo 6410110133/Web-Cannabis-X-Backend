@@ -1,6 +1,6 @@
 from .settings import *
 
-# run manage.py with --settings=book_store.settings_prod
+# run manage.py with --settings=backend.settings_prod
 
 DATABASES = {
     'default': {
