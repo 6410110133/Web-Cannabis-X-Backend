@@ -13,5 +13,8 @@ def SumAB(request):
     else:
         result = 'include a b'
 
-    return Response({'result' : result})
+    return Response({
+        'a' : int(a),
+        'b' : int(b),
+        'result' : result})
     
